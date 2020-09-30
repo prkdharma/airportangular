@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'airport-client';
+  constructor(private router:Router){  
+    //programtic way of navigating to a path, when ever appcomponent will be constructed, navigation will be done to user-list
+      //this.router.navigate(['airports-list']);
+    
+    }
 }

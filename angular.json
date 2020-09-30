@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "airport-client"
+    }
+  },
+  "defaultProject": "airport-client",
+  "cli": {
+    "analytics": "7a31491d-f49e-4ffd-a7ed-e0d1eab64d27"
+  }
 }
